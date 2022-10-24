@@ -1,0 +1,173 @@
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  /* ================================================================================
+    This Is Header Section responsive design Start
+    ================================================================================*/
+  .mainHeader {
+    display: none;
+  }
+  /* ================================================================================
+    This Is Header Section responsive design end
+    ================================================================================*/
+
+  /* ================================================================================
+    This Is Navigation  responsive design start
+    ================================================================================*/
+  .mainNavwrap {
+    display: block;
+    padding: 0px;
+  }
+  .navBar {
+    background-color: #e7e7e7;
+  }
+  .navWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navWrap {
+    margin: 0 auto;
+    position: relative;
+    max-width: 90%;
+  }
+  .search {
+    display: block;
+  }
+  .menu {
+    display: block;
+  }
+  .logo img {
+    max-height: 40px;
+  }
+  .search a {
+    color: black;
+    font-size: 18px;
+    transition-duration: 0.3s;
+  }
+  .search a:hover {
+    color: #ff5200;
+  }
+  .menu a {
+    color: #ff5200;
+    font-size: 18px;
+    border: 1px solid #ff5200;
+    padding: 3px;
+  }
+
+  /* Nav List  start*/
+  .navListWrap {
+    display: block;
+    top: 45px;
+    /* disply none for nav */
+    background-color: #222222;
+    left: 0;
+    position: absolute;
+    min-width: 100%;
+  }
+  .navList {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .navList ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .navList ul li {
+    padding: 8px 0px;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navList ul li:nth-child(6) {
+    border: none;
+  }
+  .navList ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Oswald", sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    transition-duration: 0.3s;
+  }
+  .navList ul li a:hover {
+    color: #ff5200;
+  }
+  .navList ul li:last-child {
+    display: none;
+  }
+  .angle {
+    border: 1px solid white;
+    padding: 0px 3px;
+  }
+  .angle-down {
+    display: block;
+  }
+  /* Nav List  end*/
+  /* ================================================================================
+    This Is Navigation  responsive design end
+    ================================================================================*/
+
+  /* ================================================================================
+    This Is Slider Section  responsive design start
+    ================================================================================*/
+
+  .sliderSec {
+    background-color: rebeccapurple;
+    background-image: url(../image/slide-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .sliderWrap {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .sliderCon {
+    max-width: 60%;
+    padding: 40px 0px;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .sliderCon h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
+  .sliderCon p {
+    color: white;
+    text-align: justify;
+    padding-bottom: 20px;
+  }
+  .sliderCon button {
+    background-color: #ff5200;
+    border: none;
+    width: 130px;
+    height: 40px;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition-duration: 0.3s;
+  }
+  .sliderCon button:hover {
+    background-color: #222222;
+  }
+
+  /* ================================================================================
+    This Is Slider Section  responsive design end
+    ================================================================================*/
+}

@@ -59,7 +59,7 @@
 
   /* Nav List  start*/
   .navListWrap {
-    display: block;
+    display: none;
     top: 45px;
     /* disply none for nav */
     background-color: #222222;

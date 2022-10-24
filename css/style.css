@@ -1,132 +1,136 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
 }
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Oswald', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
 }
 
 /* ====================================================================================
  This Is Header Section design Start
 ==================================================================================== */
 .mainHeader {
-    background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 
 .container {
-    max-width: 1100px;
-    margin: auto;
+  max-width: 1100px;
+  margin: auto;
 }
 
 .headerWrap {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  margin: 0 auto;
 }
 
 .leftContent {
-    display: flex;
+  display: flex;
 }
 
 .phone a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .email a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 .phone i {
-    color: #FF6C00;
+  color: #ff6c00;
 }
 
 .email i {
-    color: #FF6C00;
+  color: #ff6c00;
 }
 
 .phone {
-    padding: 15px;
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
+  padding: 15px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
 }
 .phone i {
-    color: #FF6C00;
+  color: #ff6c00;
 }
 
 .email i {
-    color: #FF6C00;
+  color: #ff6c00;
 }
 
 .phone {
-    padding: 15px;
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
+  padding: 15px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
 }
 
 .email {
-    padding: 15px;
+  padding: 15px;
 }
 
 .rightContent {
-    display: flex;
+  display: flex;
 }
 
 .facebook {
-    padding: 15px;
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
+  padding: 15px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
 }
 
 .facebook a {
-    color: black;
-    text-decoration: none;
-    transition-duration: 0.3s;
+  color: black;
+  text-decoration: none;
+  transition-duration: 0.3s;
 }
 
 .facebook a:hover {
-    color: #FF5200;
+  color: #ff5200;
 }
 
 .instagram {
-    padding: 15px;
-    border-right: 1px solid #ddd;
+  padding: 15px;
+  border-right: 1px solid #ddd;
 }
 
 .instagram a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .instagram a:hover {
-    color: #FF5200;
+  color: #ff5200;
 }
 
 .linkiedin {
-    padding: 15px;
-    border-right: 1px solid #ddd;
+  padding: 15px;
+  border-right: 1px solid #ddd;
 }
 
 .linkiedin a {
-    color: black;
-    text-decoration: none;
-    transition-duration: 0.3s;
+  color: black;
+  text-decoration: none;
+  transition-duration: 0.3s;
 }
 
 .linkiedin a:hover {
-    color: #FF5200;
+  color: #ff5200;
 }
 
 /* ====================================================================================
@@ -138,108 +142,98 @@ h1, h2, h3, h4, h5, h6 {
 ==================================================================================== */
 
 .search {
-    display: none;
+  display: none;
 }
 .menu {
-    display: none;
+  display: none;
 }
 
-.mainNavwrap{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+.mainNavwrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .navListWrap ul {
-    display: flex;
-    list-style-type: none;
+  display: flex;
+  list-style-type: none;
 }
 
 .navListWrap ul li {
-    padding: 20px 15px;
+  padding: 20px 15px;
 }
 
 .navListWrap ul li a {
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-family: 'Oswald', sans-serif;
-    font-size: 16px;
-    transition-duration: 0.3s;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  transition-duration: 0.3s;
 }
 .navList ul li a:hover {
-    color: #ff5200;
-  }
-
-.angle-down{
-    display: none;
+  color: #ff5200;
 }
 
-
-
-
+.angle-down {
+  display: none;
+}
 
 /* ====================================================================================
  This Is  Navigation design end
 ==================================================================================== */
 
-
 /* ================================================================================
     This Is Slider Section design start
     ================================================================================*/
 .sliderSec {
-    background-color: rebeccapurple;
-    background-image: url(../image/slide-2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
+  background-color: rebeccapurple;
+  background-image: url(../image/slide-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
+.sliderCon {
+  max-width: 60%;
+  padding: 80px 0px;
+  display: flex;
+  flex-flow: column wrap;
+}
 
-  .sliderCon {
-    max-width: 60%;
-    padding: 80px 0px;
-    display: flex;
-    flex-flow: column wrap;
-  }
+.sliderCon h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 55px;
+  line-height: 1.2;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
 
+.sliderCon p {
+  color: white;
+  text-align: justify;
+  padding-bottom: 20px;
+}
 
-  .sliderCon h1 {
-    color: white;
-    text-transform: uppercase;
-    font-size: 55px;
-    line-height: 1.2;
-    font-weight: 500;
-    padding-bottom: 20px;
-  }
+.sliderCon button {
+  background-color: #ff5200;
+  border: none;
+  width: 220px;
+  height: 50px;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition-duration: 0.3s;
+}
+.sliderCon button:hover {
+  background-color: #222222;
+}
 
-  .sliderCon p {
-    color: white;
-    text-align: justify;
-    padding-bottom: 20px;
-  }
-
-  .sliderCon button {
-    background-color: #ff5200;
-    border: none;
-    width: 220px;
-    height: 50px;
-    text-transform: uppercase;
-    color: white;
-    font-family: "Oswald", sans-serif;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 3px;
-    transition-duration: 0.3s;
-  }
-  .sliderCon button:hover {
-    background-color: #222222;
-  }
-
-
-
-
-  /* ================================================================================
+/* ================================================================================
     This Is Slider Section design end
     ================================================================================*/

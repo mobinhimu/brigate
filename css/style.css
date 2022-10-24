@@ -237,3 +237,80 @@ h6 {
 /* ================================================================================
     This Is Slider Section design end
     ================================================================================*/
+
+/* ================================================================================
+    This Is Service box design start  
+    ================================================================================*/
+
+.serviceBox {
+  background-color: #f5f6f6;
+  padding-top: 50px;
+}
+.serviceWrap {
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.singleBox {
+  display: flex;
+  flex-flow: column wrap;
+  background-color: white;
+  padding: 45px 20px;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin-bottom: 25px;
+  transition-duration: 0.2s;
+  margin-right: 20px;
+  flex-basis: 19%;
+}
+.singleBox:last-child {
+  margin-right: 0px;
+}
+.singleBox i {
+  font-size: 40px;
+  color: #ff5200;
+  padding-bottom: 20px;
+  transition-duration: 0.2s;
+}
+.singleBox h2 {
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  line-height: 32px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+.serviceBox p {
+  text-align: center;
+  font-weight: 400;
+  line-height: 18px;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+.serviceBox a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ff5200;
+  transition-duration: 0.2s;
+}
+.singleBox:hover {
+  background-color: #ff5200;
+  color: white;
+}
+.singleBox:hover i {
+  background-color: #ff5200;
+  color: white;
+}
+.singleBox:hover a {
+  background-color: #ff5200;
+  color: white;
+}
+
+/* ================================================================================
+    This Is Service box design end  
+    ================================================================================*/

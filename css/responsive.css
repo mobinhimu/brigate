@@ -170,4 +170,80 @@
   /* ================================================================================
     This Is Slider Section  responsive design end
     ================================================================================*/
+
+  /* ================================================================================
+    This Is Service box  responsive design start
+    ================================================================================*/
+    
+    .serviceBox{
+      background-color: #F5F6F6;
+      padding-top: 50px;
+    }
+    .serviceWrap{
+      max-width: 90%;
+      margin: 0 auto;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+    .singleBox{
+      display: flex;
+      flex-flow: column wrap;
+      background-color: white;
+      padding: 30px 20px;
+      align-items: center;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      margin-bottom: 25px;
+      transition-duration: 0.2s;
+      margin-right: 0px;
+      flex-basis: 100%;
+    }
+    .singleBox i{
+      font-size: 25px;
+      color: #ff5200;
+      padding-bottom: 10px;
+      transition-duration: 0.2s;
+    }
+    .singleBox h2{
+      text-align: center;
+      font-size: 15px;
+      text-transform: uppercase;
+      line-height: 22px;
+      padding-bottom: 10px;
+      cursor: pointer;
+    }
+    .serviceBox p{
+      text-align: center;
+      font-weight: 400;
+      line-height: 18px;
+      padding-bottom: 15px;
+     font-size: 14px;
+    }
+    .serviceBox a{
+      text-decoration: none;
+      color: black;
+      font-weight: 500;
+      font-size: 13px;
+      color: #ff5200;
+      transition-duration: 0.2s;
+    }
+    .singleBox:hover{
+      background-color: #ff5200;
+      color: white;
+    }
+    .singleBox:hover i{
+      background-color: #ff5200;
+      color: white;
+    }
+    .singleBox:hover a{
+      background-color: #ff5200;
+      color: white;
+    }
+    
+
+  /* 
+  ================================================================================
+    This Is Service box  responsive design end
+    ================================================================================*/
 }

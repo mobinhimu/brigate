@@ -277,7 +277,7 @@
   .singleBox:hover a {
     color: white;
   }
-  .singleBox:hover p{
+  .singleBox:hover p {
     color: white;
   }
 
@@ -285,118 +285,164 @@
   ================================================================================
     This Is Service box  responsive design end
     ================================================================================*/
-    .ourTeamWrapp{
-      display: flex;
-      flex-flow: column wrap;
-      justify-content: center;
-      align-items: center;
-      padding: 30px 0px;
-    }
-    .leftTeam{
-      max-width: 100%;
-      display: flex;
-      justify-content: center;
-    }
-    .leftTeam img{
-      max-width: 90%;
-    }
-    .rightTeam{
-      max-width: 90%;
-      display: flex;
-      flex-direction: column;
-    }
-    .teamDesc h2{
-      padding-top: 30px;
-      padding-bottom: 25px;
-      font-size: 20px;
-      font-weight: 500;
-    }
-    .teamDesc p{
-      font-size: 14px;
-      color: #656565;
-      line-height: 1.2;
-      text-align: justify;
-      padding-bottom: 25px;
-    }
-    .teamList{
-      display: flex;
-      justify-content: space-between;
-      flex-flow: row wrap;
-    }
-    .leftList{
-      list-style-type: none;
-    }
-    .leftList li a{
-      text-decoration: none;
-      color: #656565;
-      line-height: 2;
-      font-size: 14px;
-      font-weight: 500;
-      transition-duration: 0.3s;
-    }
-    .rightList{
-      list-style-type: none;
-    }
-
-    .rightList li a{
-      text-decoration: none;
-      color: #656565;
-      line-height: 2;
-      font-size: 14px;
-      font-weight: 500;
-      transition-duration: 0.3s;
-    }
-    .leftList li a i{
-      font-size: 11px;
-    }
-    .rightList li a i{
-      font-size: 11px;
-    }
-    .leftList li a:hover{
-      color: #ff5200;
-    }
-    .rightList li a:hover{
-      color: #ff5200;
-    }
-    .getStart{
-      width: 35%;
-      height: 50px;
-      border: none;
-      font-size: 18px;
-      text-transform: uppercase;
-      font-family: "Oswald", sans-serif;
-      font-weight: 600;
-      cursor: pointer;
-      background-color: #ff5200;
-      color: white;
-      letter-spacing: 2px;
-      border-radius: 3px;
-      margin: 25px auto;
-      transition-duration: 0.3s;
-    }
-    .getStart:hover{
-      background-color: #222222;
-    }
-  
-  
-  
   /* 
   ================================================================================
     This Is Our Team responsive design start
     ================================================================================*/
 
+  .ourTeamWrapp {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+  }
+  .leftTeam {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .leftTeam img {
+    max-width: 90%;
+  }
+  .rightTeam {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  .teamDesc h2 {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .teamDesc p {
+    font-size: 14px;
+    color: #656565;
+    line-height: 1.2;
+    text-align: justify;
+    padding-bottom: 25px;
+  }
+  .teamList {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+  .leftList {
+    list-style-type: none;
+  }
+  .leftList li a {
+    text-decoration: none;
+    color: #656565;
+    line-height: 2;
+    font-size: 14px;
+    font-weight: 500;
+    transition-duration: 0.3s;
+  }
+  .rightList {
+    list-style-type: none;
+  }
 
-
-
-
-
-
-
-
-
+  .rightList li a {
+    text-decoration: none;
+    color: #656565;
+    line-height: 2;
+    font-size: 14px;
+    font-weight: 500;
+    transition-duration: 0.3s;
+  }
+  .leftList li a i {
+    font-size: 11px;
+  }
+  .rightList li a i {
+    font-size: 11px;
+  }
+  .leftList li a:hover {
+    color: #ff5200;
+  }
+  .rightList li a:hover {
+    color: #ff5200;
+  }
+  .getStart {
+    width: 35%;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #ff5200;
+    color: white;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    margin: 25px auto;
+    transition-duration: 0.3s;
+  }
+  .getStart:hover {
+    background-color: #222222;
+  }
 
   /* 
   ================================================================================
-    This Is Our Team responsive design start
+    This Is Our Team responsive design end
+    ================================================================================*/
+    /* 
+  ================================================================================
+    This Is 'Why Choose Us' responsive design start
+    ================================================================================*/
+    .whyChooseUs{
+      background-image:linear-gradient(rgb(0 0 0 / 55%), rgb(0 0 0 / 55%)), url(../image/customerNum.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50%;
+    }
+    .chooseUsWrap{
+      max-width: 90%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      flex-flow: row wrap;
+      padding: 30px 0px;
+    }
+    .singleIcon{
+      display: flex;
+      flex-flow: column wrap;
+      color: white;
+      text-align: center;
+      padding: 5px;
+      margin-bottom: 20px;
+    }
+    .singleIcon i{
+      font-size: 25px;
+    }
+    .singleIcon h1{
+      font-size: 24px;
+    }
+    .singleIcon h2{
+      font-size: 16px;
+    }
+    .order-1{
+      order: 1;
+    }
+    .order-2{
+      order: 3;
+      
+    }
+    .order-3{
+      order: 2;
+      
+    }
+    .order-4{
+      order: 4;
+    }
+
+
+
+
+
+     /* 
+  ================================================================================
+    This Is 'Why Choose Us' responsive design end
     ================================================================================*/
 }

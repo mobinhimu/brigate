@@ -387,62 +387,216 @@
   ================================================================================
     This Is Our Team responsive design end
     ================================================================================*/
-    /* 
+  /* 
   ================================================================================
     This Is 'Why Choose Us' responsive design start
     ================================================================================*/
-    .whyChooseUs{
-      background-image:linear-gradient(rgb(0 0 0 / 55%), rgb(0 0 0 / 55%)), url(../image/customerNum.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: 50%;
-    }
-    .chooseUsWrap{
-      max-width: 90%;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      flex-flow: row wrap;
-      padding: 30px 0px;
-    }
-    .singleIcon{
-      display: flex;
-      flex-flow: column wrap;
-      color: white;
-      text-align: center;
-      padding: 5px;
-      margin-bottom: 20px;
-    }
-    .singleIcon i{
-      font-size: 25px;
-    }
-    .singleIcon h1{
-      font-size: 24px;
-    }
-    .singleIcon h2{
-      font-size: 16px;
-    }
-    .order-1{
-      order: 1;
-    }
-    .order-2{
-      order: 3;
-      
-    }
-    .order-3{
-      order: 2;
-      
-    }
-    .order-4{
-      order: 4;
-    }
+  .whyChooseUs {
+    background-image: linear-gradient(rgb(0 0 0 / 55%), rgb(0 0 0 / 55%)),
+      url(../image/customerNum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+  }
+  .chooseUsWrap {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    padding: 30px 0px;
+  }
+  .singleIcon {
+    display: flex;
+    flex-flow: column wrap;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  .singleIcon i {
+    font-size: 25px;
+  }
+  .singleIcon h1 {
+    font-size: 24px;
+  }
+  .singleIcon h2 {
+    font-size: 16px;
+  }
+  .order-1 {
+    order: 1;
+  }
+  .order-2 {
+    order: 3;
+  }
+  .order-3 {
+    order: 2;
+  }
+  .order-4 {
+    order: 4;
+  }
 
-
-
-
-
-     /* 
+  /* 
   ================================================================================
     This Is 'Why Choose Us' responsive design end
+    ================================================================================*/
+
+  /* 
+  ================================================================================
+    This Is 'More From Us' responsive design start
+    ================================================================================*/
+  .moreFromUs {
+    background-color: #f5f6f6;
+    padding: 40px 0px;
+  }
+  .moreFromUsWrap {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .chooseDesc {
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+  .chooseDesc h1 {
+    font-weight: 700;
+    padding-bottom: 20px;
+    font-size: 22px;
+  }
+  .chooseDesc p {
+    color: #656565;
+    font-size: 14px;
+  }
+  .chooseDesc::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    height: 5px;
+    width: 60px;
+    background-color: #ff5200;
+    top: 45px;
+  }
+  .singleChooseWrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .singleChoose {
+    max-width: 100%;
+  }
+  .chooseImage {
+    max-width: 100%;
+  }
+  .chooseImage img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  .singleDesc {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 25px;
+    position: relative;
+    top: -8px;
+  }
+  .singleDesc h1 {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  .singleDesc p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    padding-top: 20px;
+    color: #656565;
+    text-align: center;
+  }
+
+  /* 
+  ================================================================================
+    This Is 'More From Us' responsive design end
+    ================================================================================*/
+  /* 
+  ================================================================================
+    This Is 'Price Plan' responsive design start
+    ================================================================================*/
+    .pricePlanWrap{
+      max-width: 90%;
+      margin: 0 auto;
+    }
+    .priceBlog{
+      width: 100%;
+    }
+    .priceBlog{
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .SPB{
+      padding: 20px;
+      border: 1px solid #ddd;
+      margin-bottom: 25px;
+      width: 80%;
+      box-shadow: 0px 0px 8px 8px rgb(244, 244, 244);
+      margin-bottom: 35px;
+      border-radius: 4px;
+    }
+    .SPB h2{
+      font-size: 25px;
+    }
+    .SPB h1{
+      font-size: 35px;
+      padding-bottom: 15px;
+    }
+    .SPB span{
+      font-size: 20px;
+      font-weight: 500;
+      margin-left: 10px;
+    }
+    .priceList{
+      list-style-type: none;
+    }
+    .priceList li{
+      font-weight: 500;
+      font-size: 14px;
+      padding-bottom: 20px;
+    }
+    .priceList i{
+      color: #ff5200;
+      margin-right: 5px;
+    }
+    .PPBtn{
+      background-color: #ff5200;
+      width: 40%;
+      height: 50px;
+      border: none;
+      color: white;
+      font-weight: 700;
+      font-family: "Oswald", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      cursor: pointer;
+      border-radius: 2px;
+      transition-duration: 0.3s;
+    }
+    .PPBtn:hover{
+      background-color: #222222;
+    }
+
+
+
+
+
+
+  /* 
+  ================================================================================
+    This Is 'Price Plan' responsive design end
     ================================================================================*/
 }

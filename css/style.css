@@ -578,72 +578,143 @@ h6 {
 /* ================================================================================
      This Is 'Price Plan' design start
     ================================================================================*/
-    /* .pricePlanWrap{
-      max-width: 90%;
+.pricePlanWrap{
+      max-width: 100%;
       margin: 0 auto;
-    } */
-    .priceBlog{
+      padding: 50px 0px;
+    }
+.priceBlog {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.SPB {
+  padding: 25px;
+  border: 1px solid #ddd;
+  margin-bottom: 25px;
+  width: 27%;
+  box-shadow: 0px 0px 8px 8px rgb(244, 244, 244);
+  margin-bottom: 35px;
+  border-radius: 4px;
+}
+.SPB h2 {
+  font-size: 30px;
+}
+.SPB h1 {
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+.SPB span {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.priceList {
+  list-style-type: none;
+}
+.priceList li {
+  font-weight: 500;
+  font-size: 16px;
+  padding-bottom: 25px;
+}
+.priceList i {
+  color: #ff5200;
+  margin-right: 5px;
+}
+.PPBtn {
+  background-color: #ff5200;
+  width: 45%;
+  height: 50px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 2px;
+  transition-duration: 0.3s;
+}
+.PPBtn:hover {
+  background-color: #222222;
+}
+
+/* ================================================================================
+     This Is 'Price Plan' design end
+    ================================================================================*/
+    /* ================================================================================
+     This Is 'idea' design start
+    ================================================================================*/
+
+    .ideaWrap{
+      display: flex;
+      flex-flow: row wrap;
+      padding: 40px 0px;
+    }
+    .leftIdea{
+      max-width: 50%;
+    }
+    .leftIdea img{
+      max-width: 100%;
+    }
+
+    .rightIdea{
+      background-color: #222222;
+      padding: 60px 35px;
+      box-sizing: border-box;
+      max-width: 50%;
+    }
+    .ideaDesc{
+      text-align: center;
+    }
+    .ideaDesc h1{
+      color: #ff5200;
+      font-size: 30px;
+      padding-bottom: 10px;
+    }
+    .ideaDesc p{
+      color: white;
+      font-size: 14px;
+      line-height: 1.7;
+    }
+    .singleIdeaWrap{
       display: flex;
       flex-flow: row wrap;
       justify-content: space-between;
+    }
+    .singleIdea{
+      max-width: 50%;
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
       align-items: center;
     }
-    .SPB{
-      padding: 25px;
-      border: 1px solid #ddd;
-      margin-bottom: 25px;
-      width: 27%;
-      box-shadow: 0px 0px 8px 8px rgb(244, 244, 244);
-      margin-bottom: 35px;
-      border-radius: 4px;
-    }
-    .SPB h2{
-      font-size: 30px;
-    }
-    .SPB h1{
-      font-size: 45px;
-      padding-bottom: 20px;
-    }
-    .SPB span{
-      font-size: 20px;
-      font-weight: 500;
-      margin-left: 10px;
-    }
-    .priceList{
-      list-style-type: none;
-    }
-    .priceList li{
-      font-weight: 500;
-      font-size: 16px;
-      padding-bottom: 25px;
-    }
-    .priceList i{
+    .singleIdea i{
+      font-size: 35px;
       color: #ff5200;
-      margin-right: 5px;
+      margin-right: 10px;
     }
-    .PPBtn{
-      background-color: #ff5200;
-      width: 45%;
-      height: 50px;
-      border: none;
+    .singleIdea h3{
+      font-size: 15px;
       color: white;
-      font-weight: 700;
-      font-family: "Oswald", sans-serif;
-      text-transform: uppercase;
-      letter-spacing: 1px;
       cursor: pointer;
-      border-radius: 2px;
+      margin-bottom: 5px;
       transition-duration: 0.3s;
     }
-    .PPBtn:hover{
-      background-color: #222222;
+    .singleIdea h3:hover{
+      color: #ff5200;
+    }
+    .singleIdea p{
+      font-size: 14px;
+      color: white;
+      line-height: 1.8;
     }
 
 
 
 
-
-
-/* ================================================================================
-     This Is 'Price Plan' design start
+    /* ================================================================================
+     This Is 'idea' design end
     ================================================================================*/
+

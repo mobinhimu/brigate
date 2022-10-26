@@ -457,43 +457,192 @@ h6 {
 /* ================================================================================
      This Is 'Why Choose Us' design start
     ================================================================================*/
-    .whyChooseUs{
-      background-image:linear-gradient(rgb(0 0 0 / 55%), rgb(0 0 0 / 55%)), url(../image/customerNum.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-    .chooseUsWrap{
-      max-width: 100%;
+.whyChooseUs {
+  background-image: linear-gradient(rgb(0 0 0 / 55%), rgb(0 0 0 / 55%)),
+    url(../image/customerNum.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.chooseUsWrap {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  padding: 80px 0px;
+}
+.singleIcon {
+  display: flex;
+  flex-flow: column wrap;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin: 20px auto;
+}
+.singleIcon i {
+  font-size: 50px;
+  padding-bottom: 15px;
+}
+.singleIcon h1 {
+  font-size: 34px;
+  padding-bottom: 15px;
+}
+.singleIcon h2 {
+  font-size: 26px;
+  padding-bottom: 15px;
+}
+
+/* ================================================================================
+     This Is 'Why Choose Us' design end
+    ================================================================================*/
+/* ================================================================================
+     This Is 'More From Us' design start
+    ================================================================================*/
+.moreFromUs {
+  background-color: #f5f6f6;
+  padding: 40px 0px;
+}
+.moreFromUsWrap {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.chooseDesc {
+  text-align: center;
+  max-width: 55%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.chooseDesc h1 {
+  font-weight: 700;
+  padding-bottom: 20px;
+  font-size: 45px;
+}
+.chooseDesc p {
+  color: #656565;
+  font-size: 18px;
+}
+.chooseDesc::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  height: 5px;
+  width: 60px;
+  background-color: #ff5200;
+  top: 80px;
+}
+.singleChooseWrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.singleChoose {
+  max-width: 23%;
+}
+.chooseImage {
+  max-width: 100%;
+}
+.chooseImage img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.singleDesc {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+  position: relative;
+  top: -8px;
+}
+.singleDesc h1 {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.singleDesc p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  padding-top: 15px;
+  color: #656565;
+  text-align: justify;
+}
+
+/* ================================================================================
+     This Is 'More From Us' design end
+    ================================================================================*/
+
+/* ================================================================================
+     This Is 'Price Plan' design start
+    ================================================================================*/
+    /* .pricePlanWrap{
+      max-width: 90%;
       margin: 0 auto;
+    } */
+    .priceBlog{
       display: flex;
-      justify-content: space-between;
       flex-flow: row wrap;
-      padding: 80px 0px;
+      justify-content: space-between;
+      align-items: center;
     }
-    .singleIcon{
-      display: flex;
-      flex-flow: column wrap;
+    .SPB{
+      padding: 25px;
+      border: 1px solid #ddd;
+      margin-bottom: 25px;
+      width: 27%;
+      box-shadow: 0px 0px 8px 8px rgb(244, 244, 244);
+      margin-bottom: 35px;
+      border-radius: 4px;
+    }
+    .SPB h2{
+      font-size: 30px;
+    }
+    .SPB h1{
+      font-size: 45px;
+      padding-bottom: 20px;
+    }
+    .SPB span{
+      font-size: 20px;
+      font-weight: 500;
+      margin-left: 10px;
+    }
+    .priceList{
+      list-style-type: none;
+    }
+    .priceList li{
+      font-weight: 500;
+      font-size: 16px;
+      padding-bottom: 25px;
+    }
+    .priceList i{
+      color: #ff5200;
+      margin-right: 5px;
+    }
+    .PPBtn{
+      background-color: #ff5200;
+      width: 45%;
+      height: 50px;
+      border: none;
       color: white;
-      text-align: center;
-      padding: 15px;
-      margin: 20px auto;
+      font-weight: 700;
+      font-family: "Oswald", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      cursor: pointer;
+      border-radius: 2px;
+      transition-duration: 0.3s;
     }
-    .singleIcon i{
-      font-size: 50px;
-      padding-bottom: 15px;
+    .PPBtn:hover{
+      background-color: #222222;
     }
-    .singleIcon h1{
-      font-size: 34px;
-      padding-bottom: 15px;
-    }
-    .singleIcon h2{
-      font-size: 26px;
-      padding-bottom: 15px;
-    }
+
+
 
 
 
 
 /* ================================================================================
-     This Is 'Why Choose Us' design end
+     This Is 'Price Plan' design start
     ================================================================================*/

@@ -578,11 +578,11 @@ h6 {
 /* ================================================================================
      This Is 'Price Plan' design start
     ================================================================================*/
-.pricePlanWrap{
-      max-width: 100%;
-      margin: 0 auto;
-      padding: 50px 0px;
-    }
+.pricePlanWrap {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 50px 0px;
+}
 .priceBlog {
   display: flex;
   flex-flow: row wrap;
@@ -643,78 +643,88 @@ h6 {
 /* ================================================================================
      This Is 'Price Plan' design end
     ================================================================================*/
-    /* ================================================================================
+/* ================================================================================
      This Is 'idea' design start
     ================================================================================*/
-
-    .ideaWrap{
+    .ideaWrap {
       display: flex;
       flex-flow: row wrap;
-      padding: 40px 0px;
+      justify-content: space-between;
+      position: relative;
     }
     .leftIdea{
-      max-width: 50%;
+      z-index: -1;
     }
-    .leftIdea img{
-      max-width: 100%;
-    }
-
-    .rightIdea{
-      background-color: #222222;
-      padding: 60px 35px;
-      box-sizing: border-box;
-      max-width: 50%;
-    }
-    .ideaDesc{
-      text-align: center;
-    }
-    .ideaDesc h1{
-      color: #ff5200;
-      font-size: 30px;
-      padding-bottom: 10px;
-    }
-    .ideaDesc p{
-      color: white;
-      font-size: 14px;
-      line-height: 1.7;
-    }
-    .singleIdeaWrap{
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: space-between;
-    }
-    .singleIdea{
-      max-width: 50%;
-      margin-top: 30px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .singleIdea i{
-      font-size: 35px;
-      color: #ff5200;
-      margin-right: 10px;
-    }
-    .singleIdea h3{
-      font-size: 15px;
-      color: white;
-      cursor: pointer;
-      margin-bottom: 5px;
-      transition-duration: 0.3s;
-    }
-    .singleIdea h3:hover{
-      color: #ff5200;
-    }
-    .singleIdea p{
-      font-size: 14px;
-      color: white;
-      line-height: 1.8;
-    }
-
-
-
-
-    /* ================================================================================
+    .ideaImg{
+        background-image: url(../image/idea1.jpg);
+        background-repeat: center center;
+        background-size: cover;
+        position: absolute;
+        width: 50%;
+        height: 100%;
+      }
+      .rightIdea {
+        background-color: #222222;
+        padding: 40px 15px;
+        width: 50%;
+      }
+      .ideaDesc {
+        text-align: center;
+      }
+      .ideaDesc h1 {
+        color: #ff5200;
+        font-size: 30px;
+        padding-bottom: 10px;
+      }
+      .ideaDesc p {
+        color: white;
+        font-size: 14px;
+        line-height: 1.7;
+      }
+      .singleIdeaWrap {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+      }
+      .singleIdea {
+        max-width: 50%;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .singleIdea i {
+        font-size: 35px;
+        color: #ff5200;
+        margin-right: 10px;
+      }
+      .singleIdea h3 {
+        font-size: 15px;
+        color: white;
+        cursor: pointer;
+        margin-bottom: 5px;
+        transition-duration: 0.3s;
+      }
+      .singleIdea h3:hover {
+        color: #ff5200;
+      }
+      .singleIdea p {
+        font-size: 14px;
+        color: white;
+        line-height: 1.8;
+      }
+/* ================================================================================
      This Is 'idea' design end
     ================================================================================*/
 
+/* ================================================================================
+     This Is 'meet our team' design start
+    ================================================================================*/
+
+
+
+
+
+/* ================================================================================
+     This Is 'meet our team' design end
+    ================================================================================*/

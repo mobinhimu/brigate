@@ -600,79 +600,87 @@
   ================================================================================
     This Is 'idea' responsive design start
     ================================================================================*/
-    .ideaWrap{
+    .ideaWrap {
       display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-    }
-    /* .leftIdea{
+      flex-flow: column wrap;
+      justify-content: space-between;
+      position: relative;
+      height: 140vh;
+    }  
+  .leftIdea{
+    width: 100%;
+  }
+  .ideaImg{
       background-image: url(../image/idea1.jpg);
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: contain;
+      background-repeat: center center;
+      background-size: cover;
       position: absolute;
       width: 100%;
-      height: 100vh;
-      order: 2;
-    } */
-    .leftIdea{
-      max-width: 100%;
-      order: 2;
+      height: 100%;
     }
-    .leftIdea img{
-      max-width: 100%;
-    }
-    .rightIdea{
-      background-color: #222222;
-      padding: 40px 15px;
-      position: relative;
-      max-width: 100%;
-    }
-    .ideaDesc{
-      text-align: center;
-    }
-    .ideaDesc h1{
-      color: #ff5200;
-      font-size: 30px;
-      padding-bottom: 10px;
-    }
-    .ideaDesc p{
-      color: white;
-      font-size: 14px;
-      line-height: 1.7;
-    }
-    .singleIdeaWrap{
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: space-between;
-    }
-    .singleIdea{
-      max-width: 50%;
-      margin-top: 30px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .singleIdea i{
-      font-size: 35px;
-      color: #ff5200;
-      margin-right: 10px;
-    }
-    .singleIdea h3{
-      font-size: 15px;
-      color: white;
-      cursor: pointer;
-      margin-bottom: 5px;
-      transition-duration: 0.3s;
-    }
-    .singleIdea h3:hover{
-      color: #ff5200;
-    }
-    .singleIdea p{
-      font-size: 14px;
-      color: white;
-      line-height: 1.8;
-    }
+  .rightIdea {
+    background-color: #222222;
+    padding: 40px 15px;
+    width: 100%;
+    position: absolute;
+    box-sizing: border-box;
+  }
+  .ideaDesc {
+    text-align: center;
+  }
+  .ideaDesc h1 {
+    color: #ff5200;
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  .ideaDesc p {
+    color: white;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .singleIdeaWrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  .singleIdea {
+    max-width: 50%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .singleIdea i {
+    font-size: 35px;
+    color: #ff5200;
+    margin-right: 10px;
+  }
+  .singleIdea h3 {
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 5px;
+    transition-duration: 0.3s;
+  }
+  .singleIdea h3:hover {
+    color: #ff5200;
+  }
+  .singleIdea p {
+    font-size: 14px;
+    color: white;
+    line-height: 1.8;
+  }
+
+  /* 
+  ================================================================================
+    This Is 'meet our team' responsive design start
+    ================================================================================*/
+  /* 
+  ================================================================================
+    This Is 'meet our team' responsive design end
+    ================================================================================*/
+
+
 
 
 

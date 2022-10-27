@@ -600,12 +600,16 @@
   ================================================================================
     This Is 'idea' responsive design start
     ================================================================================*/
+    .idea{
+      margin: 20px 0px;
+      height: 140vh;
+    }
     .ideaWrap {
       display: flex;
       flex-flow: column wrap;
       justify-content: space-between;
       position: relative;
-      height: 140vh;
+      height: 100%;
     }  
   .leftIdea{
     width: 100%;
@@ -679,6 +683,109 @@
   ================================================================================
     This Is 'meet our team' responsive design end
     ================================================================================*/
+    .teamWrap{
+      max-width: 90%;
+      margin: 30px auto;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+    }
+    .singlePerson{
+      width: 100%;
+      margin-bottom: 25px;
+    }
+    .personimg{
+      display: flex;
+      justify-content: center;
+      position: relative;
+      align-items: flex-end;
+    }
+    .personimg img{
+      max-width: 100%;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+    .personDesc{
+      text-align: center;
+      border-left: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+      border-right: 1px solid #ddd;
+      margin-top: -5px;
+    }
+    .personDesc h3{
+      font-size: 16px;
+      padding-top: 10px;
+      padding-bottom: 3px;
+    }
+    .personDesc p{
+      font-size: 14px;
+      font-weight: 500;
+      padding-bottom: 10px;
+      color: #656565;
+    }
+    .personSocial{
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+    }
+    .personSocial i{
+      background-color: rebeccapurple;
+      color: white;
+      font-size: 14px;
+      border-radius: 100%;
+      height: 35px;
+      width: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 25px;
+      margin-bottom: 50px;
+      cursor: pointer;
+      transition-duration: 0.2s;
+    }
+    .personSocial i:hover{
+      color: black;
+      background-color: white;
+    }
+    .personSocial i:first-child{
+      background-color: #3b5998;
+      opacity: 0;
+      transition-duration: 0.90s;
+    }
+    .personSocial i:nth-child(2){
+      background-color:  #00acee;
+      opacity: 0;
+      transition-duration: 0.70s;
+    }
+    .personSocial i:nth-child(3){
+      background-color: #db4a39;
+      opacity: 0;
+      transition-duration: 0.50s;
+    }
+    .personSocial i:last-child{
+      margin-right: 0px;
+      background-color: #0072b1;
+      opacity: 0;
+      transition-duration: 0.30s;
+    }
+    .singlePerson:hover .personSocial i:first-child{
+      transform: translateY(30px);
+      opacity: 1;
+    }
+    .singlePerson:hover .personSocial i:nth-child(2){
+      transform: translateY(30px);
+      opacity: 1;
+    }
+    .singlePerson:hover .personSocial i:nth-child(3){
+      transform: translateY(30px);
+      opacity: 1;
+    }
+    .singlePerson:hover .personSocial i:last-child{
+      transform: translateY(30px);
+      opacity: 1;
+    }
+
+
 
 
 

@@ -784,6 +784,25 @@
       transform: translateY(30px);
       opacity: 1;
     }
+    .joinOurTeem{
+      width: 40%;
+      height: 50px;
+      cursor: pointer;
+      color: white;
+      text-transform: uppercase;
+      background-color: #ff5200;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      font-family: "Oswald", sans-serif;
+      letter-spacing: 1.3px;
+      margin: 0 auto;
+      font-weight: 600;
+      transition-duration: 0.3s;
+    }
+    .joinOurTeem:hover{
+      background-color: #222222;
+    }
 
 
 

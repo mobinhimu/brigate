@@ -624,7 +624,7 @@
     }
   .rightIdea {
     background-color: #222222;
-    padding: 40px 15px;
+    padding: 0px 15px;
     width: 100%;
     position: absolute;
     box-sizing: border-box;
@@ -646,6 +646,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    padding: 0px;
   }
   .singleIdea {
     max-width: 50%;
@@ -653,6 +654,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 0px!important;
   }
   .singleIdea i {
     font-size: 35px;

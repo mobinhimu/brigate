@@ -968,7 +968,9 @@
     ================================================================================*/
   .footerCon {
     background-color: #1a1a1a;
-    padding: 30px 0px;
+    padding: 130px 0px 20px 0px;
+    position: relative;
+    top: 330px;
   }
   .footerWrap {
     max-width: 90%;
@@ -1011,12 +1013,15 @@
   }
   .contact1 {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row;
     align-items: baseline;
   }
   .contact1 i {
     color: #ff5200;
     padding-right: 10px;
+  }
+  .contact1 p {
+    text-align: start;
   }
   .contact2 {
     display: flex;
@@ -1065,7 +1070,7 @@
     font-size: 16px;
     color: #656565;
     line-height: 3;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px dashed #ddd;
     transition-duration: 0.3s;
     cursor: pointer;
   }
@@ -1158,7 +1163,7 @@
   .mobinHimu a:active {
     color: #0072b1;
   }
-  .policy{
+  .policy {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
@@ -1177,5 +1182,96 @@
   /* 
   ================================================================================
     This Is 'footer' responsive design end
+    ================================================================================*/
+
+  /* 
+  ================================================================================
+    This Is 'subscribe' responsive design end
+    ================================================================================*/
+  .subscribe {
+    margin: 30px 0px;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+  }
+
+  .subscribeWrap {
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: #ff5200;
+    padding: 40px 10px;
+    border-radius: 5px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .singleSub h2 {
+    color: white;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.singleSub input {
+    padding: 10px;
+    width: 90%;
+    border: none;
+    outline: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.singleSub {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.singleSub a {
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+  line-height: 1.7;
+}
+ul.followUs {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+ul.followUs li a {
+  border: 1px solid white;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+}
+ul.followUs li a:hover{
+  background-color: white;
+  color: black;
+}
+.singleSub button {
+  border: none;
+  position: absolute;
+  right: 0;
+  bottom: 28%;
+  padding: 10px;
+  outline: none;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  width: 30%;
+  cursor: pointer;
+}
+  /* 
+  ================================================================================
+    This Is 'subscribe' responsive design end
     ================================================================================*/
 }

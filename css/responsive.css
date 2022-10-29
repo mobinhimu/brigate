@@ -881,86 +881,301 @@
   ================================================================================
     This Is ''our best project' responsive design start
     ================================================================================*/
-    .latestNews{
-      padding: 30px 0px;
-    }
-    .neswWrap{
-      max-width: 90%;
-      margin: 0 auto;
-      display: flex;
-      flex-flow: column wrap;
-    }
-    .singleNews{
-      box-sizing: border-box;
-      margin-bottom: 25px;
-      width: 100%;
-    }
-    
-    .newsImg img{
-      max-width: 100%;
-    }
-    
-    .newsDesc{
-      padding: 15px;
-      margin-top: -5px;
-      border-left: 1px solid #ddd;
-      border-right: 1px solid #ddd;
-      border-bottom: 1px solid #ddd;
-      display: flex;
-      flex-flow: column wrap;
-    }
-    .newsMeta{
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: space-between;
-      position: relative;
-    }
-    .newsMeta span {
-      font-size: 14px;
-      font-weight: 500;
-      color: #656565;
-      margin-bottom: 10px;
-    }
-    .newsMeta span:first-child:after{
-      content: "";
-      height: 3px;
-      width: 15%;
-      background-color: #ff5200;
-      position: absolute;
-      bottom: 60%;
-      right: 45%;
-    }
-    .newsMeta span:last-child:hover{
-      color: #ff5200;
-      cursor: pointer;
-      transition-duration: 0.3s;
-    }
-    .newsTitle h3{
-      font-size: 18px;
-      margin-bottom: 10px;
-      cursor: pointer;
-      transition-duration: 0.3s;
-    }
-    .newsTitle h3:hover{
-      color: #ff5200;
-    }
-    .newsPara{
-      font-size: 16px;
-      margin-bottom: 10px;
-      text-transform: capitalize;
-      text-align: justify;
-    }
-    .newsLink a{
-      text-decoration: none;
-      color: #ff5200;
-      font-size: 16px;
-      font-weight: 600;
-    }
-    
+  .latestNews {
+    padding: 30px 0px;
+  }
+  .neswWrap {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .singleNews {
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    width: 100%;
+  }
 
+  .newsImg img {
+    max-width: 100%;
+  }
+
+  .newsDesc {
+    padding: 15px;
+    margin-top: -5px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .newsMeta {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    position: relative;
+  }
+  .newsMeta span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #656565;
+    margin-bottom: 10px;
+  }
+  .newsMeta span:first-child:after {
+    content: "";
+    height: 3px;
+    width: 15%;
+    background-color: #ff5200;
+    position: absolute;
+    bottom: 60%;
+    right: 45%;
+  }
+  .newsMeta span:last-child:hover {
+    color: #ff5200;
+    cursor: pointer;
+    transition-duration: 0.3s;
+  }
+  .newsTitle h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+  }
+  .newsTitle h3:hover {
+    color: #ff5200;
+  }
+  .newsPara {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    text-align: justify;
+  }
+  .newsLink a {
+    text-decoration: none;
+    color: #ff5200;
+    font-size: 16px;
+    font-weight: 600;
+  }
 
   /* 
   ================================================================================
     This Is 'our best project' responsive design end
+    ================================================================================*/
+
+  /* 
+  ================================================================================
+    This Is 'footer' responsive design start
+    ================================================================================*/
+  .footerCon {
+    background-color: #1a1a1a;
+    padding: 30px 0px;
+  }
+  .footerWrap {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .singleF {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .singleF h2 {
+    color: white;
+    font-size: 18px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+  }
+  .singleF p {
+    color: #656565;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5;
+    padding-bottom: 15px;
+  }
+  .fSocial {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .fSocial a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition-duration: 0.3s;
+  }
+  .fSocial a:hover {
+    color: #ff5200;
+  }
+  .fSocial a:active {
+    color: #0072b1;
+  }
+  .contact1 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+  }
+  .contact1 i {
+    color: #ff5200;
+    padding-right: 10px;
+  }
+  .contact2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+  }
+  .contact2 i {
+    color: #ff5200;
+    padding-right: 10px;
+  }
+  .conNum span {
+    color: #656565;
+    font-size: 14px;
+  }
+  .contact3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .contact3 i {
+    color: #ff5200;
+    padding-right: 10px;
+  }
+
+  .conEmail a {
+    color: #656565;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .conEmail a:hover {
+    text-decoration: underline;
+    text-decoration-color: #ff5200;
+  }
+  .conEmail a:active {
+    text-decoration-color: white;
+  }
+  .usefullink {
+    list-style-type: none;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .usefullink li {
+    font-size: 16px;
+    color: #656565;
+    line-height: 3;
+    border-bottom: 1px solid #ddd;
+    transition-duration: 0.3s;
+    cursor: pointer;
+  }
+  .usefullink li i {
+    font-size: 14px;
+    padding-right: 5px;
+  }
+  .usefullink li:hover {
+    color: #ff5200;
+  }
+
+  .sPost1 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .sPost1:last-child {
+    padding-bottom: 0px;
+  }
+
+  .postLeft {
+    background-color: #313131;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .postLeft span {
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    line-height: 18px;
+  }
+  .postLeft span:first-child {
+    font-size: 25px;
+    padding-bottom: 8px;
+    font-weight: 700;
+  }
+  .postRight h3 {
+    font-size: 18px;
+    color: white;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    padding-bottom: 10px;
+  }
+  .postRight h3:hover {
+    color: #ff5200;
+  }
+  .postRight span {
+    color: #656565;
+    font-size: 14px;
+  }
+  .postRight i {
+    padding-right: 5px;
+  }
+
+  .copyWrap {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+  }
+  .mobinHimu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .mobinHimu span {
+    font-size: 14px;
+    line-height: 1.3;
+    color: #ababab;
+    margin-bottom: 10px;
+  }
+  .mobinHimu a {
+    text-decoration: none;
+    color: #ff5200;
+    font-size: 18px;
+    transition-duration: 0.3s;
+  }
+  .mobinHimu a:hover {
+    color: #db4939d2;
+  }
+  .mobinHimu a:active {
+    color: #0072b1;
+  }
+  .policy{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 100%;
+  }
+  .policy li {
+    color: white;
+    font-size: 14px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+  }
+  .policy li:hover {
+    color: #ff5200;
+  }
+
+  /* 
+  ================================================================================
+    This Is 'footer' responsive design end
     ================================================================================*/
 }

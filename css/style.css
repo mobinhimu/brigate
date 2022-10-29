@@ -915,90 +915,307 @@ h6 {
 /* ================================================================================
      This Is 'our latest news' design start
     ================================================================================*/
-    .latestNews{
-      padding: 30px 0px;
-    }
-    .neswWrap{
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: space-between;
-    }
-    .singleNews{
-      box-sizing: border-box;
-      overflow: hidden;
-      margin-bottom: 25px;
-      width: 31%;
-    }
-    .newsImg{
-      overflow: hidden;
-    }
-    
-    .newsImg img{
-      max-width: 100%;
-      transition-duration: 0.3s;
-      transition-timing-function: cubic-bezier(0.49, 0.04, 0.37, 1.18);
-      cursor: pointer;
-    }
-    .newsImg:hover img{
-      transform: scale(1.1);
-    }
-    
-    .newsDesc{
-      padding: 15px;
-      margin-top: -5px;
-      border-left: 1px solid #ddd;
-      border-right: 1px solid #ddd;
-      border-bottom: 1px solid #ddd;
-      display: flex;
-      flex-flow: column wrap;
-    }
-    .newsMeta{
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: space-between;
-      position: relative;
-    }
-    .newsMeta span {
-      font-size: 14px;
-      font-weight: 500;
-      color: #656565;
-      margin-bottom: 10px;
-    }
-    .newsMeta span:first-child:after{
-      content: "";
-      height: 3px;
-      width: 15%;
-      background-color: #ff5200;
-      position: absolute;
-      bottom: 60%;
-      right: 45%;
-    }
-    .newsMeta span:last-child:hover{
-      color: #ff5200;
-      cursor: pointer;
-      transition-duration: 0.3s;
-    }
-    .newsTitle h3{
-      font-size: 20px;
-      margin-bottom: 10px;
-      cursor: pointer;
-      transition-duration: 0.3s;
-    }
-    .newsTitle h3:hover{
-      color: #ff5200;
-    }
-    .newsPara{
-      font-size: 16px;
-      margin-bottom: 10px;
-      text-transform: capitalize;
-      text-align: justify;
-    }
-    .newsLink a{
-      text-decoration: none;
-      color: #ff5200;
-      font-size: 16px;
-      font-weight: 600;
-    }
+.latestNews {
+  padding: 60px 0px;
+}
+.neswWrap {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.singleNews {
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-bottom: 25px;
+  width: 31%;
+}
+.newsImg {
+  overflow: hidden;
+}
+
+.newsImg img {
+  max-width: 100%;
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.49, 0.04, 0.37, 1.18);
+  cursor: pointer;
+}
+.newsImg:hover img {
+  transform: scale(1.1);
+}
+
+.newsDesc {
+  padding: 15px;
+  margin-top: -5px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  flex-flow: column wrap;
+}
+.newsMeta {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  position: relative;
+}
+.newsMeta span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #656565;
+  margin-bottom: 10px;
+}
+.newsMeta span:first-child:after {
+  content: "";
+  height: 3px;
+  width: 15%;
+  background-color: #ff5200;
+  position: absolute;
+  bottom: 60%;
+  right: 45%;
+}
+.newsMeta span:last-child:hover {
+  color: #ff5200;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.newsTitle h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.newsTitle h3:hover {
+  color: #ff5200;
+}
+.newsPara {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  text-align: justify;
+}
+.newsLink a {
+  text-decoration: none;
+  color: #ff5200;
+  font-size: 16px;
+  font-weight: 600;
+}
 /* ================================================================================
      This Is 'our best project' design end
+    ================================================================================*/
+
+/* ================================================================================
+     This Is 'footer' design start
+    ================================================================================*/
+.footerCon {
+  background-color: #1a1a1a;
+  padding: 120px 0px 40px 0px;
+}
+.footerWrap {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.singleF {
+  margin-bottom: 30px;
+  width: 23%;
+}
+.singleF h2 {
+  color: white;
+  font-size: 22px;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+}
+.singleF p {
+  color: #656565;
+  font-size: 18px;
+  line-height: 1.5;
+  padding-bottom: 15px;
+  text-align: justify;
+}
+.fSocial {
+  display: flex;
+  justify-content: space-between;
+}
+.fSocial a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  transition-duration: 0.3s;
+}
+.fSocial a:hover {
+  color: #ff5200;
+}
+.fSocial a:active {
+  color: #0072b1;
+}
+.contact1 {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+.contact1 i {
+  color: #ff5200;
+  padding-right: 10px;
+}
+.contact1 p {
+  text-align: unset;
+}
+.contact2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+.contact2 i {
+  color: #ff5200;
+  padding-right: 10px;
+}
+.conNum span {
+  color: #656565;
+  font-size: 16px;
+}
+.contact3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.contact3 i {
+  color: #ff5200;
+  padding-right: 10px;
+}
+
+.conEmail a {
+  color: #656565;
+  font-size: 16px;
+  text-decoration: none;
+}
+.conEmail a:hover {
+  text-decoration: underline;
+  text-decoration-color: #ff5200;
+}
+.conEmail a:active {
+  text-decoration-color: white;
+}
+.usefullink{
+  list-style-type: none;
+  display: flex;
+  flex-flow: column wrap;
+}
+.usefullink li{
+  font-size: 16px;
+  color: #656565;
+  line-height: 2.5;
+  border-bottom: 1px solid #ddd;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+.usefullink li i{
+  font-size: 14px;
+  padding-right: 5px;
+}
+.usefullink li:hover{
+  color: #ff5200;
+}
+.usefullink li:last-child {
+  border-bottom: none;
+}
+.sPost1 {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.sPost1:last-child{
+  padding-bottom: 0px;
+}
+
+.postLeft {
+  background-color: #313131;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.postLeft span {
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+  line-height: 18px;
+}
+.postLeft span:first-child {
+  font-size: 25px;
+  padding-bottom: 8px;
+  font-weight: 700;
+}
+.postRight h3{
+  font-size: 18px;
+  color: white;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+.postRight h3:hover{
+  color: #ff5200;
+}
+.postRight span {
+  color: #656565;
+  font-size: 14px;
+}
+.postRight i{
+  padding-right: 5px;
+}
+
+.copyWrap{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+.mobinHimu{
+  width: 60%;
+}
+
+.mobinHimu span{
+  font-size: 14px;
+  line-height: 1.3;
+  color: #ababab;
+  margin-bottom: 10px;
+}
+.mobinHimu a{
+  text-decoration: none;
+  color: #ff5200;
+  font-size: 18px;
+  transition-duration: 0.3s;
+}
+.mobinHimu a:hover{
+  color: #db4939d2;
+}
+.mobinHimu a:active{
+  color: #0072b1;
+}
+.policy{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 40%;
+}
+.policy li {
+  color: white;
+  font-size: 14px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+.policy li:hover {
+  color: #ff5200;
+}
+
+
+/* ================================================================================
+     This Is 'footer' design end
     ================================================================================*/

@@ -1212,64 +1212,64 @@
     color: white;
     font-size: 18px;
     padding-bottom: 15px;
-}
+  }
 
-.singleSub input {
+  .singleSub input {
     padding: 10px;
     width: 90%;
     border: none;
     outline: none;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
-}
+  }
 
-.singleSub {
+  .singleSub {
     display: flex;
     flex-flow: column wrap;
     width: 100%;
     overflow: hidden;
     padding-bottom: 30px;
     position: relative;
-}
+  }
 
-.singleSub a {
-  font-size: 14px;
-  text-decoration: none;
-  color: white;
-  line-height: 1.7;
-}
-ul.followUs {
-  display: flex;
-  justify-content: space-evenly;
-  list-style-type: none;
-}
+  .singleSub a {
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    line-height: 1.7;
+  }
+  ul.followUs {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+  }
 
-ul.followUs li a {
-  border: 1px solid white;
-  border-radius: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 35px;
-  width: 35px;
-}
-ul.followUs li a:hover{
-  background-color: white;
-  color: black;
-}
-.singleSub button {
-  border: none;
-  position: absolute;
-  right: 0;
-  bottom: 28%;
-  padding: 10px;
-  outline: none;
-  border-radius: 30px;
-  background-color: black;
-  color: white;
-  width: 30%;
-  cursor: pointer;
-}
+  ul.followUs li a {
+    border: 1px solid white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+  }
+  ul.followUs li a:hover {
+    background-color: white;
+    color: black;
+  }
+  .singleSub button {
+    border: none;
+    position: absolute;
+    right: 0;
+    bottom: 28%;
+    padding: 10px;
+    outline: none;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    width: 30%;
+    cursor: pointer;
+  }
   /* 
   ================================================================================
     This Is 'subscribe' responsive design end

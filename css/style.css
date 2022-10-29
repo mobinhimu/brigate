@@ -1223,89 +1223,85 @@ h6 {
 /* ================================================================================
      This Is 'subscribe' design end
     ================================================================================*/
-    .subscribe {
-      margin: 30px 0px;
-      z-index: 1;
-      position: absolute;
-      width: 100%;
-    }
-  
-    .subscribeWrap {
-      box-sizing: border-box;
-      background-color: #ff5200;
-      padding: 45px 30px;
-      border-radius: 5px;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .singleSub h2 {
-      color: white;
-      font-size: 25px;
-      padding-bottom: 30px;
-  }
-  
-  .singleSub input {
-      padding: 16px;
-      width: 90%;
-      border: none;
-      outline: none;
-      border-top-left-radius: 30px;
-      border-bottom-left-radius: 30px;
-  }
-  
-  .singleSub {
-      display: flex;
-      flex-flow: column wrap;
-      width: 30%;
-      overflow: hidden;
-      padding-bottom: 30px;
-      position: relative;
-  }
-  .singleSub a {
-    font-size: 16px;
-    text-decoration: none;
-    color: white;
-    line-height: 1.7;
-  }
-  ul.followUs {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-  }
-  
-  ul.followUs li a {
-    border: 1px solid white;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 35px;
-    width: 35px;
-  }
-  ul.followUs li a:hover{
-    background-color: white;
-    color: black;
-  }
-  .singleSub button {
-    border: none;
-    position: absolute;
-    right: 0;
-    bottom: 21%;
-    padding: 16px;
-    outline: none;
-    border-radius: 30px;
-    background-color: black;
-    color: white;
-    width: 30%;
-    cursor: pointer;
-  }
+.subscribe {
+  margin: 30px 0px;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+}
 
+.subscribeWrap {
+  box-sizing: border-box;
+  background-color: #ff5200;
+  padding: 45px 30px;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.singleSub h2 {
+  color: white;
+  font-size: 25px;
+  padding-bottom: 30px;
+}
 
+.singleSub input {
+  padding: 16px;
+  width: 90%;
+  border: none;
+  outline: none;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
 
+.singleSub {
+  display: flex;
+  flex-flow: column wrap;
+  width: 30%;
+  overflow: hidden;
+  padding-bottom: 30px;
+  position: relative;
+}
+.singleSub a {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  line-height: 1.7;
+}
+ul.followUs {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
 
+ul.followUs li a {
+  border: 1px solid white;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+}
+ul.followUs li a:hover {
+  background-color: white;
+  color: black;
+}
+.singleSub button {
+  border: none;
+  position: absolute;
+  right: 0;
+  bottom: 21%;
+  padding: 16px;
+  outline: none;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  width: 30%;
+  cursor: pointer;
+}
 
 /* ================================================================================
      This Is 'subscribe' design end

@@ -815,26 +815,26 @@
   ================================================================================
     This Is 'our best project' responsive design end
     ================================================================================*/
-  .ourBestProject{
-    background-color: #F5F6F6;
+  .ourBestProject {
+    background-color: #f5f6f6;
     padding: 30px 0px;
   }
-  .bestprojectWrap{
+  .bestprojectWrap {
     max-width: 90%;
     margin: 0 auto;
     display: flex;
     flex-flow: column wrap;
   }
-  .singleProject{
+  .singleProject {
     width: 100%;
     position: relative;
     overflow: hidden;
     margin-bottom: 25px;
   }
-  .singleProject img{
+  .singleProject img {
     max-width: 100%;
   }
-  .projectDesc{
+  .projectDesc {
     position: absolute;
     transform: translateY(30px);
     padding: 0px 20px;
@@ -844,37 +844,119 @@
     background: linear-gradient(to top, black, transparent 125px);
     transition-duration: 0.3s;
   }
-  .projectDesc a{
+  .projectDesc a {
     font-size: 14px;
     font-weight: 600;
     color: white;
     text-decoration-thickness: 3px;
     padding-bottom: 10px;
     display: inline-block;
-    
   }
-  .projectDesc h3{
+  .projectDesc h3 {
     color: white;
     font-size: 15px;
     padding-bottom: 5px;
   }
-  .projectDesc span a{
+  .projectDesc span a {
     font-weight: 500;
-   text-decoration: none;
-   transform: translateX(-120px);
-   transition-timing-function: cubic-bezier(0.17, 0.08, 0, 1.18);
-  
+    text-decoration: none;
+    transform: translateX(-120px);
+    transition-timing-function: cubic-bezier(0.17, 0.08, 0, 1.18);
   }
-  .singleProject:hover .projectDesc{
+  .singleProject:hover .projectDesc {
     transform: translateY(0px);
     background: linear-gradient(to top, black, transparent 130px);
   }
-  .singleProject:hover  .projectDesc span a{
+  .singleProject:hover .projectDesc span a {
     transform: translateX(0px);
     transition-duration: 0.3s;
     transition-delay: 0.3s;
   }
 
+  /* 
+  ================================================================================
+    This Is 'our best project' responsive design end
+    ================================================================================*/
+  /* 
+  ================================================================================
+    This Is ''our best project' responsive design start
+    ================================================================================*/
+    .latestNews{
+      padding: 30px 0px;
+    }
+    .neswWrap{
+      max-width: 90%;
+      margin: 0 auto;
+      display: flex;
+      flex-flow: column wrap;
+    }
+    .singleNews{
+      box-sizing: border-box;
+      margin-bottom: 25px;
+      width: 100%;
+    }
+    
+    .newsImg img{
+      max-width: 100%;
+    }
+    
+    .newsDesc{
+      padding: 15px;
+      margin-top: -5px;
+      border-left: 1px solid #ddd;
+      border-right: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      flex-flow: column wrap;
+    }
+    .newsMeta{
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      position: relative;
+    }
+    .newsMeta span {
+      font-size: 14px;
+      font-weight: 500;
+      color: #656565;
+      margin-bottom: 10px;
+    }
+    .newsMeta span:first-child:after{
+      content: "";
+      height: 3px;
+      width: 15%;
+      background-color: #ff5200;
+      position: absolute;
+      bottom: 60%;
+      right: 45%;
+    }
+    .newsMeta span:last-child:hover{
+      color: #ff5200;
+      cursor: pointer;
+      transition-duration: 0.3s;
+    }
+    .newsTitle h3{
+      font-size: 18px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      transition-duration: 0.3s;
+    }
+    .newsTitle h3:hover{
+      color: #ff5200;
+    }
+    .newsPara{
+      font-size: 16px;
+      margin-bottom: 10px;
+      text-transform: capitalize;
+      text-align: justify;
+    }
+    .newsLink a{
+      text-decoration: none;
+      color: #ff5200;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    
 
 
   /* 

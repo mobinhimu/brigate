@@ -1306,3 +1306,41 @@ ul.followUs li a:hover {
 /* ================================================================================
      This Is 'subscribe' design end
     ================================================================================*/
+
+
+    ul.subMenu {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      background-color: white;
+      width: 45%;
+      top: 60px;
+      transform: scaleY(0);
+      transform-origin: top;
+      transition-duration: 0.7s;
+  }
+  
+  nav.navList {
+      position: relative;     
+  }
+  
+  ul.subMenu li {
+      padding: 15px 15px;
+      cursor: pointer;
+  }
+  ul.subMenu li::before {
+    content: "";
+    background-color: red;
+    width: 0px;
+    height: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    transition-duration: 0.6s;
+}
+ul.subMenu li:hover::before{
+  width: 20px;
+}
+#pages:hover ul.subMenu{
+  transform: scaleX(1);
+}
